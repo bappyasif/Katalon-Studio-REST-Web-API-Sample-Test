@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>chaining use of variable in a test case.</description>
+   <name>REST Web API Chaining Sample Test Without Using Gloabal Variable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0890a28-28ba-4e6f-9ab1-4c6488ab6c64</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>chaining use of variable in a test case.</description>
+   <name>REST Web API Chaining Sample Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e546aaf8-bd8d-4b23-b407-dda031e6711f</testCaseGuid>
+</TestCaseEntity>

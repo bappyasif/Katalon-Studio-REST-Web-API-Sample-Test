@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>this will handle List and Create uses API from test website reqres.in</description>
+   <name>REST Web API testCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61122220-387a-42fb-be0a-3552bdcd5970</testCaseGuid>
+</TestCaseEntity>

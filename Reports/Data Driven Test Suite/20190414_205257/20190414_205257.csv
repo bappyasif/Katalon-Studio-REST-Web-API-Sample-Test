@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Data Driven Test Suite,,,2019-04-14 20:53:00,2019-04-14 20:53:09,8.972s,PASSED
+,,,,,,
+Test Cases/REST Data Driven Test,,Data Driven Test Using CSV or Excel File,2019-04-14 20:53:01,2019-04-14 20:53:07,6.662s,PASSED
+"println(""User Namee Found In variables : "" + userName)",,,2019-04-14 20:53:01,2019-04-14 20:53:01,0.028s,PASSED
+"sendRequest(findTestObject(""REST Web Services API/CreateUsers"", [""UserName"":userName]))",,,2019-04-14 20:53:01,2019-04-14 20:53:07,6.172s,PASSED
+,,,,,,
+Test Cases/REST Data Driven Test,,Data Driven Test Using CSV or Excel File,2019-04-14 20:53:07,2019-04-14 20:53:09,1.655s,PASSED
+"println(""User Namee Found In variables : "" + userName)",,,2019-04-14 20:53:07,2019-04-14 20:53:07,0.002s,PASSED
+"sendRequest(findTestObject(""REST Web Services API/CreateUsers"", [""UserName"":userName]))",,,2019-04-14 20:53:07,2019-04-14 20:53:09,1.618s,PASSED

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="REST API Web Services" time="11" tests="2" failures="0" errors="0">
+   <testsuite name="REST API Web Services" tests="2" failures="0" errors="0" time="11" timestamp="2019-04-13 21:15:44" hostname="BappY - Toruk-Macto" id="Test Suites/REST API Web Services">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BappY\\Katalon Studio\\Sample REST API Testing Project\\Reports\\REST API Web Services\\20190413_211540"/>
+         <property name="logFiles" value="C:\\Users\\BappY\\Katalon Studio\\Sample REST API Testing Project\\Reports\\REST API Web Services\\20190413_211540\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BappY - Toruk-Macto"/>
+         <property name="hostAddress" value="10.244.50.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+      </properties>
+      <testcase name="Test Cases/REST Web API Chaining Sample Test" classname="Test Cases/REST Web API Chaining Sample Test" status="PASSED">
+         <system-out><![CDATA[2019-04-13 21:15:44 - [TEST_CASE][PASSED] - Test Cases/REST Web API Chaining Sample Test: Test Cases/REST Web API Chaining Sample Test
+
+2019-04-13 21:15:45 - [TEST_STEP][PASSED] - userResponse = sendRequest(findTestObject("REST Web Services API/ListUsers")): Send request successfully
+
+2019-04-13 21:15:52 - [MESSAGE][INFO] - HAR: C:\Users\BappY\Katalon Studio\Sample REST API Testing Project\Reports\REST API Web Services\20190413_211540\requests\main\0.har
+
+2019-04-13 21:15:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-13 21:15:52 - [TEST_STEP][PASSED] - urSlurper = new groovy.json.JsonSlurper(): null
+
+2019-04-13 21:15:52 - [TEST_STEP][PASSED] - ursResult = urSlurper.parseText(userResponse.getResponseBodyContent()): null
+
+2019-04-13 21:15:52 - [TEST_STEP][PASSED] - ursrValue = first_name: null
+
+2019-04-13 21:15:52 - [TEST_STEP][PASSED] - println("Value Extracted From Test Case :" + ursrValue): null
+
+2019-04-13 21:15:52 - [TEST_STEP][PASSED] - userName = ursrValue: null
+
+2019-04-13 21:15:52 - [TEST_STEP][PASSED] - println("Global Variable Is Now Holding : " + userName): null
+
+2019-04-13 21:15:52 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("REST Web Services API/UpdateUsers")): Send request and verify the response successfully
+
+2019-04-13 21:15:53 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-13 21:15:53 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-13 21:15:54 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-13 21:15:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "Tracey"): Verify element property value successfully
+
+2019-04-13 21:15:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-13 21:15:54 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-13 21:15:54 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REST Web API testCase" classname="Test Cases/REST Web API testCase" status="PASSED">
+         <system-out><![CDATA[2019-04-13 21:15:54 - [TEST_CASE][PASSED] - Test Cases/REST Web API testCase: Test Cases/REST Web API testCase
+
+2019-04-13 21:15:54 - [TEST_STEP][PASSED] - sendRequest(findTestObject("REST Web Services API/ListUsers")): Send request successfully
+
+2019-04-13 21:15:55 - [MESSAGE][INFO] - HAR: C:\Users\BappY\Katalon Studio\Sample REST API Testing Project\Reports\REST API Web Services\20190413_211540\requests\main\1.har
+
+2019-04-13 21:15:55 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-13 21:15:55 - [TEST_STEP][PASSED] - sendRequest(findTestObject("REST Web Services API/CreateUsers")): Send request successfully
+
+2019-04-13 21:15:55 - [MESSAGE][INFO] - HAR: C:\Users\BappY\Katalon Studio\Sample REST API Testing Project\Reports\REST API Web Services\20190413_211540\requests\main\2.har
+
+2019-04-13 21:15:55 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-13 21:15:44 - [TEST_SUITE][PASSED] - REST API Web Services: Test Cases/REST Web API testCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

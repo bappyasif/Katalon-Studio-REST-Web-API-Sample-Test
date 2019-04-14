@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data Driven Test Using CSV or Excel File</description>
+   <name>REST Data Driven Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4195e67-0352-4514-acae-7fa4cd40ee5e</testCaseGuid>
+   <variable>
+      <defaultValue>'Bappy'</defaultValue>
+      <description></description>
+      <id>f67b5f2d-edf4-432e-ad09-5c943b418861</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+REST API Web Services,,,2019-04-13 21:15:44,2019-04-13 21:15:56,11.697s,PASSED
+,,,,,,
+Test Cases/REST Web API Chaining Sample Test,,chaining use of variable in a test case.,2019-04-13 21:15:44,2019-04-13 21:15:54,9.066s,PASSED
+"userResponse = sendRequest(findTestObject(""REST Web Services API/ListUsers""))",,,2019-04-13 21:15:45,2019-04-13 21:15:52,6.928s,PASSED
+urSlurper = new groovy.json.JsonSlurper(),,,2019-04-13 21:15:52,2019-04-13 21:15:52,0.011s,PASSED
+ursResult = urSlurper.parseText(userResponse.getResponseBodyContent()),,,2019-04-13 21:15:52,2019-04-13 21:15:52,0.030s,PASSED
+ursrValue = first_name,,,2019-04-13 21:15:52,2019-04-13 21:15:52,0.012s,PASSED
+"println(""Value Extracted From Test Case :"" + ursrValue)",,,2019-04-13 21:15:52,2019-04-13 21:15:52,0.006s,PASSED
+userName = ursrValue,,,2019-04-13 21:15:52,2019-04-13 21:15:52,0.031s,PASSED
+"println(""Global Variable Is Now Holding : "" + userName)",,,2019-04-13 21:15:52,2019-04-13 21:15:52,0.002s,PASSED
+"sendRequestAndVerify(findTestObject(""REST Web Services API/UpdateUsers""))",,,2019-04-13 21:15:52,2019-04-13 21:15:54,1.304s,PASSED
+,,,,,,
+Test Cases/REST Web API testCase,,this will handle List and Create uses API from test website reqres.in,2019-04-13 21:15:54,2019-04-13 21:15:55,1.904s,PASSED
+"sendRequest(findTestObject(""REST Web Services API/ListUsers""))",,,2019-04-13 21:15:54,2019-04-13 21:15:55,0.993s,PASSED
+"sendRequest(findTestObject(""REST Web Services API/CreateUsers""))",,,2019-04-13 21:15:55,2019-04-13 21:15:55,0.595s,PASSED
